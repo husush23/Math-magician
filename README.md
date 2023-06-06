@@ -33,7 +33,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Capstone--2</summary>
+  <summary>Math magicians</summary>
   
 </details>
 
@@ -52,7 +52,7 @@ In order to run this project you need: only to clone this github repo
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone 'git@github.com:husush23/capstone--2.git'
+- git clone 'https://github.com/husush23/Math-magician.git'
 
 ### Install
 
