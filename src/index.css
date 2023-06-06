@@ -7,6 +7,7 @@ body {
 .caculator {
   width: 600px;
 }
+
 .output {
   background-color: rgba(196, 185, 185, 0.678);
   height: 90px;
@@ -17,17 +18,20 @@ body {
   font-size: 3rem;
   padding-left: 10px;
 }
+
 .output > input {
   height: 90px;
   width: 99%;
   border: none;
   background-color: rgba(196, 185, 185, 0.678);
 }
+
 .keyboard {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
+
 button {
   cursor: pointer;
   font-size: 2rem;
@@ -41,12 +45,10 @@ button {
   grid-column: span 2;
 }
 
-button:hover,
-button:focus {
-}
 .keyboard > .side {
   background-color: orange;
 }
+
 .keyboard > .side:hover {
   background-color: rgba(255, 166, 0, 0.702);
 }
