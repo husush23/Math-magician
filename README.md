@@ -81,7 +81,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Here is the live Demo👇🏻.
 
 - [Live Demo Link](https://husush23.github.io/Math-magician/)
 
@@ -179,8 +179,6 @@ You can deploy this project using:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - **Single page app**
 - **Complete webApp**
