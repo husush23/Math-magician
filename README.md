@@ -54,6 +54,13 @@ Clone this repository to your desired folder:
 - cd my-folder
 - git clone 'https://github.com/husush23/Math-magician.git'
 
+### Tech stack
+
+Additional features:
+
+- components
+- Calculator design
+
 ### Install
 
 no installation needed, just clone is enough
