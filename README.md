@@ -9,12 +9,13 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
+
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
+
   - [Deployment](#triangular_flag_on_post-deployment)
+
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -94,7 +95,7 @@ You can deploy this project using any hosting server in the world
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors:">: Hussein Hashi
+### 👥 Authors <a name="authors:">: Hussein Hashi
 
 👤 **Hussein Hashi**
 
