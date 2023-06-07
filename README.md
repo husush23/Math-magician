@@ -33,6 +33,20 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<details>
   <summary>Math magicians</summary>
   
 </details>
@@ -63,20 +77,6 @@ Clone this repository to your desired folder:
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 ### Additional features:
 
 - components
@@ -98,9 +98,9 @@ You can deploy this project using any hosting server in the world
 
 👤 **Hussein Hashi**
 
-- GitHub: [@githubhandle](https://github.com/husush23)
-- Twitter: [@twitterhandle](https://twitter.com/HusseinKadare2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
+- GitHub: [Husush23](https://github.com/husush23)
+- Twitter: [Hussein](https://twitter.com/HusseinKadare2)
+- LinkedIn: [Hussein](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
 
 <!-- FUTURE FEATURES -->
 
