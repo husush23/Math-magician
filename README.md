@@ -56,7 +56,9 @@ Clone this repository to your desired folder:
 
 ### Tech stack
 
-Additional features:
+React.js & Redux
+
+### Additional features:
 
 - components
 - Calculator design
