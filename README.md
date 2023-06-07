@@ -156,9 +156,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-```sh
-Netlify, gh(Github Pages) etc.
-```
+- Netlify, gh(Github Pages) etc.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +164,7 @@ Netlify, gh(Github Pages) etc.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> Here are authors of this project:
 
 👤 **Author1**
 
