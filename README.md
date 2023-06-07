@@ -33,7 +33,21 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Capstone--2</summary>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Math magicians</summary>
   
 </details>
 
@@ -52,7 +66,21 @@ In order to run this project you need: only to clone this github repo
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone 'git@github.com:husush23/capstone--2.git'
+- git clone 'https://github.com/husush23/Math-magician.git'
+
+### Tech stack
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+### Additional features:
+
+- components
+- Calculator design
 
 ### Install
 
@@ -70,9 +98,9 @@ You can deploy this project using any hosting server in the world
 
 👤 **Hussein Hashi**
 
-- GitHub: [@githubhandle](https://github.com/husush23)
-- Twitter: [@twitterhandle](https://twitter.com/HusseinKadare2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
+- GitHub: [Husush23](https://github.com/husush23)
+- Twitter: [Hussein](https://twitter.com/HusseinKadare2)
+- LinkedIn: [Hussein](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
 
 <!-- FUTURE FEATURES -->
 
