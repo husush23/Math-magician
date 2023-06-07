@@ -176,12 +176,6 @@ Netlify, gh(Github Pages) etc.
 - Twitter: [Hussein](https://twitter.com/HusseinKadare2)
 - LinkedIn: [Hussein](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
