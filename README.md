@@ -1,5 +1,11 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <h3><b>Math Magician Project</b></h3>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -8,27 +14,42 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math magician <a name="about-project"></a>
+# 📖 Math Magician <a name="about-project"></a>
 
-**Math magician** is a project built in React JS which enable you to perfume some easy calculations.
+> Brief details of this project
+
+**Math Magiciane** is project built with React JS, it perfumes for the user basic calculations
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+> Here is some Techs used for building this webapp.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
 <details>
   <summary>Server</summary>
@@ -44,55 +65,108 @@
   </ul>
 </details>
 
-<details>
-  <summary>Math magicians</summary>
-  
-</details>
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **Perfumes basic math calculations**
+- **Generates some quootes**
+- **Makes easier to calculate basic math operations**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps:
+> Here is some details for developers who mught want to use this project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: only to clone this github repo
+In order to run this project you need to :
+
+- To have NodeJS installed
+- To have NPM installed also
+- Dependencies for basic React project
+- To install [Big](https://www.npmjs.com/package/big.js)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-- cd my-folder
-- git clone 'https://github.com/husush23/Math-magician.git'
-
-### Tech stack
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-### Additional features:
-
-- components
-- Calculator design
+```sh
+  cd my-folder
+  git clone https://github.com/husush23/Math-magician.git
+```
 
 ### Install
 
-no installation needed, just clone is enough
+Install this project with:
+
+```sh
+  cd my-project
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+- For eslint run the following:
+
+```sh
+  npx eslint "**/*.{js,jsx}"
+```
+
+- For Stylelint(CSS) run the following:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+
+- For testig run the following:
+
+```sh
+  npm run test
+```
 
 ### Deployment
 
-You can deploy this project using any hosting server in the world
+You can deploy this project using:
+
+- Netlify, gh(Github Pages) etc.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors:">: Hussein Hashi
+## 👥 Authors <a name="authors"></a>
+
+> Here are authors of this project:
+
+👤 **Author1**
 
 👤 **Hussein Hashi**
 
@@ -100,17 +174,33 @@ You can deploy this project using any hosting server in the world
 - Twitter: [Hussein](https://twitter.com/HusseinKadare2)
 - LinkedIn: [Hussein](https://www.linkedin.com/in/hussein-kadare-8aa1361a8/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Full website**
+> Describe 1 - 3 features you will add to the project.
+
+- **Single page app**
+- **Complete webApp**
+- **Smooth functionality(design)**
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/husush23/Math-magician/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please follow on my social media platform listed above.
+If you encounter any issues or have questions about the project, feel free to reach out for support. Provide information on how users can contact you, such as through email, a dedicated support channel, or by raising issues on GitHub.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,9 +208,9 @@ If you like this project please follow on my social media platform listed above.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank everyone who encourages me doing all these tasks.
+I would like to express my heartfelt gratitude to all the contributors who have helped shape and improve this project. Your dedication, insights, and efforts have been invaluable in making this project what it is today. Thank you for your contributions and for being part of this collaborative journey.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Please note that the list of contributors may be available in the project's version control system, such as Git, where you can view the commit history and see all the individuals who have made contributions over time. Encouraging users to check the project's repository or documentation for a comprehensive list of contributors is a good practice.
 
 <!-- LICENSE -->
 
