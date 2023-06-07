@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import {useState} from 'react';
 import calculate from '../logic/calculate';
 
 function CalculatorUI() {
@@ -12,162 +12,162 @@ function CalculatorUI() {
   }
 
   return (
-    <div className="calculator">
-      <div className="output">{values.total ? values.total : 0}</div>
-      <div className="keyboard">
+    <div className='calculator'>
+      <div className='output'>{values.total ? values.total : 0}</div>
+      <div className='keyboard'>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           AC
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit '
+          onClick={e => {
             handleClick(e);
           }}
         >
           +/-
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           %
         </button>
         <button
-          type="submit"
-          className="side"
-          onClick={(e) => {
+          type='submit'
+          className='side'
+          onClick={e => {
             handleClick(e);
           }}
         >
           ÷
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           7
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           8
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           9
         </button>
         <button
-          type="submit"
-          className="side"
-          onClick={(e) => {
+          type='submit'
+          className='side'
+          onClick={e => {
             handleClick(e);
           }}
         >
           x
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           4
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           5
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           6
         </button>
         <button
-          type="submit"
-          className="side"
-          onClick={(e) => {
+          type='submit'
+          className='side'
+          onClick={e => {
             handleClick(e);
           }}
         >
           -
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           1
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           2
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           3
         </button>
         <button
-          type="submit"
-          className="side"
-          onClick={(e) => {
+          type='submit'
+          className='side'
+          onClick={e => {
             handleClick(e);
           }}
         >
           +
         </button>
         <button
-          type="submit"
-          className="span"
-          onClick={(e) => {
+          type='submit'
+          className='span'
+          onClick={e => {
             handleClick(e);
           }}
         >
           0
         </button>
         <button
-          type="submit"
-          onClick={(e) => {
+          type='submit'
+          onClick={e => {
             handleClick(e);
           }}
         >
           .
         </button>
         <button
-          type="submit"
-          className="side"
-          onClick={(e) => {
+          type='submit'
+          className='side'
+          onClick={e => {
             handleClick(e);
           }}
         >
