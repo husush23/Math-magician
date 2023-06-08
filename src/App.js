@@ -1,7 +1,7 @@
-import Display from './components/Display';
+import CalculatorUI from './components/CalculatorUI';
 import './index.css';
 
 function App() {
-  return <Display />;
+  return <CalculatorUI />;
 }
 export default App;

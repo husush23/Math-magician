@@ -1,7 +1,7 @@
-import Display from './Display';
+import CalculatorUI from './CalculatorUI';
 
 function Calculator() {
-  return <Display />;
+  return <CalculatorUI />;
 }
 
 export default Calculator;
