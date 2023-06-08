@@ -31,8 +31,8 @@ function Quotes() {
       });
   }, []);
 
-  if (loading) return <h4>Loading....</h4>;
   if (error) return <h3>Something went wrong!</h3>;
+  if (loading) return <h4>Loading....</h4>;
 
   return (
     <div className="qoute-cont">
