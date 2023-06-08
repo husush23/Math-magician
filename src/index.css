@@ -4,8 +4,8 @@ body {
   justify-content: center;
 }
 
-.caculator {
-  width: 600px;
+.calculator {
+  width: 45%;
 }
 
 .output {
@@ -55,4 +55,19 @@ button {
 
 button:hover {
   background-color: #ddd;
+}
+.qoute-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  width: 100%;
 }
