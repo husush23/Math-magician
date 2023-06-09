@@ -13,7 +13,11 @@ function CalculatorUI() {
 
   return (
     <div className="calculator">
-      <div className="output">{values.total ? values.total : 0}</div>
+      <div className="output">
+        <span>{values.total && values.total}</span>
+        <span>{values.operation && values.operation}</span>
+        <span>{values.next && values.next}</span>
+      </div>
       <div className="keyboard">
         <button
           type="submit"
