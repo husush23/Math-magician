@@ -5,11 +5,13 @@
   --dark: #2e2c6d;
   --secondary: #0fb9d5;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -18,6 +20,7 @@ body {
   background-color: var(--light);
   color: #fff;
 }
+
 .app {
   display: flex;
   flex-direction: column;
@@ -43,16 +46,19 @@ body {
   position: sticky;
   top: 0;
 }
+
 nav {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
+
 nav a {
   text-decoration: none;
   color: var(--secondary);
 }
+
 .header nav a.active {
   background-color: #cfa5a5;
 }
@@ -65,9 +71,11 @@ nav a {
   margin-top: 70px;
   gap: 30px;
 }
+
 .home-page .text {
   gap: 10px;
 }
+
 .calculator {
   width: 35vw;
   height: 39vw;
@@ -130,6 +138,7 @@ button:hover {
   width: 45%;
   margin-top: 80px;
 }
+
 .author {
   padding: 10px;
 }
