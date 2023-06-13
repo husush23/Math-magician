@@ -4,6 +4,7 @@ function Home() {
   return (
     <div className="home-page">
       <h2>Welcome Math Magcian</h2>
+      <div className="text" />
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minus quia
         placeat sequi suscipit delectus optio repellat totam atque
