@@ -1,17 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --light: #4678dd;
+  --dark: #2e2c6d;
+  --secondary: #0fb9d5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Lato', sans-serif;
+  background-color: var(--light);
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  width: auto;
+  height: 70%;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: var(--dark);
+  box-shadow: inset 0 -10px 10px -10px #0fbbd5c5;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.header nav a.active {
+  background-color: #cfa5a5;
+}
+
+.home-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 70px;
+  gap: 30px;
+}
+
+.home-page .text {
+  gap: 10px;
 }
 
 .calculator {
-  width: 45%;
+  width: 35vw;
+  height: 39vw;
+  overflow: hidden;
 }
 
 .output {
-  background-color: rgba(196, 185, 185, 0.678);
+  background-color: rgba(196, 185, 185, 0.478);
   height: 90px;
-  margin-top: 60px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -29,12 +102,12 @@ body {
 .keyboard {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+  grid-template-rows: minmax(6rem, auto) repeat(5, 5rem);
 }
 
 button {
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.7rem;
   border: 2px solid #ddd;
   outline: none;
   background-color: rgba(255, 255, 255, 0.45);
@@ -63,12 +136,9 @@ button:hover {
   align-items: center;
   justify-content: center;
   width: 45%;
+  margin-top: 80px;
 }
 
-.app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2%;
-  width: 100%;
+.author {
+  padding: 10px;
 }
