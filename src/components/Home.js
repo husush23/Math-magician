@@ -1,0 +1,22 @@
+import React from 'react';
+
+function Home() {
+  return (
+    <div className="home-page">
+      <h2>Welcome Math Magcian</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam minus quia
+        placeat sequi suscipit delectus optio repellat totam atque
+        {' '}
+      </p>
+      <p>
+        aspernatur, eligendi dolor maiores quidem temporibus iure nostrum quos
+        hic consectetur officia soluta necessitatibus. Aliquid fugit
+        necessitatibus ducimus dignissimos vitae reiciendis hic. Cupiditate
+        odio, quisquam impedit reiciendis tempore quasi eaque facere.
+      </p>
+    </div>
+  );
+}
+
+export default Home;
