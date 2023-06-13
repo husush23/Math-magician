@@ -34,15 +34,11 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> Brief details of this project
-
 **Math Magiciane** is project built with React JS, it perfumes for the user basic calculations
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Here is some Techs used for building this webapp.
 
 <details>
   <summary>Client</summary>
@@ -69,7 +65,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+>
 
 - **Perfumes basic math calculations**
 - **Generates some quootes**
@@ -81,8 +77,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Here is the live Demo👇🏻.
-
 - [Live Demo Link](https://husush23.github.io/Math-magician/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,8 +84,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Here is some details for developers who mught want to use this project.
 
 To get a local copy up and running, follow these steps.
 
@@ -163,8 +155,6 @@ You can deploy this project using:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Here are authors of this project:
 
 👤 **Author1**
 
