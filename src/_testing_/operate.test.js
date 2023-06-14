@@ -17,8 +17,11 @@ describe('check all Arithmetic operations', () => {
   test('Divide numbers correctly', () => {
     expect(+operate(10, 2, '÷')).toBe(5);
   });
+  test('Handle dividing by 0', () => {
+    expect(operate(10, 0, '÷')).toBe("Can't divide by 0.");
+  });
 
-  //   test('thow errro for an invalid operation', () => {
-  //     expect(() => operate(6, 3, '%')).toThrow('Invalid operation');
-  //   });
+  test('throws an error for an unknown operation', () => {
+    expect(() => operate(6, 3, '#')).toThrow("Unknown operation '#'");
+  });
 });
