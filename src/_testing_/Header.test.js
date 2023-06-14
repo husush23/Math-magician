@@ -1,14 +1,13 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Header from '../components/Header';
 import { BrowserRouter } from 'react-router-dom';
-
+import Header from '../components/Header';
 
 test('renders correctly', () => {
   const tree = renderer.create(
-  <BrowserRouter>
-    <Header />
-  </BrowserRouter>
+    <BrowserRouter>
+      <Header />
+    </BrowserRouter>,
   ).toJSON();
   expect(tree).toMatchSnapshot();
-})
+});
