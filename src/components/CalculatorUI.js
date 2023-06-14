@@ -13,7 +13,7 @@ function CalculatorUI() {
 
   return (
     <div className="calculator">
-      <div className="output">
+      <div className="output" title="Output">
         <span>{values.total && values.total}</span>
         <span>{values.operation && values.operation}</span>
         <span>{values.next && values.next}</span>

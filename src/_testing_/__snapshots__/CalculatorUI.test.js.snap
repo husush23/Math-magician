@@ -6,6 +6,7 @@ exports[`renders correctly 1`] = `
 >
   <div
     className="output"
+    title="Output"
   >
     <span />
     <span />
