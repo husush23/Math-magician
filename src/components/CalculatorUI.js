@@ -8,15 +8,17 @@ function CalculatorUI() {
     operation: null,
   });
   function handleClick(e) {
-    setValues(calculate(values, e.target.innerText));
+    setValues(calculate(values, e.target.textContent));
   }
+
+  const { total, next, operation } = values;
 
   return (
     <div className="calculator">
-      <div className="output">
-        <span>{values.total && values.total}</span>
-        <span>{values.operation && values.operation}</span>
-        <span>{values.next && values.next}</span>
+      <div className="output" data-testid="calculator-output">
+        {total}
+        {operation}
+        {next}
       </div>
       <div className="keyboard">
         <button
