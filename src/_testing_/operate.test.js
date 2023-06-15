@@ -24,4 +24,8 @@ describe('check all Arithmetic operations', () => {
   test('throws an error for an unknown operation', () => {
     expect(() => operate(6, 3, '#')).toThrow("Unknown operation '#'");
   });
+  test('Modulus operation should return the correct result', () => {
+    const result = operate('5', '2', '%');
+    expect(result).toBe('1');
+  });
 });
