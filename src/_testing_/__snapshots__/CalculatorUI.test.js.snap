@@ -1,16 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`Calculator renders correctly 1`] = `
 <div
   className="calculator"
 >
   <div
     className="output"
-  >
-    <span />
-    <span />
-    <span />
-  </div>
+    data-testid="calculator-output"
+  />
   <div
     className="keyboard"
   >
