@@ -1,5 +1,4 @@
-/*eslint-disable*/
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 
 function Quotes() {
   const [quoteData, setQuoteData] = useState(['Quote here']);
@@ -16,7 +15,7 @@ function Quotes() {
             headers: {
               'X-Api-Key': 'l7joY6pxRAtosVpy+GGSVg==tL66pxRY0ioTzgkd',
             },
-          }
+          },
         );
 
         if (!res.ok) {
@@ -43,9 +42,12 @@ function Quotes() {
   if (loading) return <h4>Loading....</h4>;
 
   return (
-    <div className='qoute-cont'>
+    <div className="qoute-cont">
       <p>{quoteData && quoteData.quote}</p>
-      <h2 className='author'>~ {quoteData.author}</h2>
+      <h2 className="author">
+        ~
+        {quoteData.author}
+      </h2>
     </div>
   );
 }

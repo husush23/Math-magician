@@ -8,7 +8,6 @@ exports[`Calculator renders correctly 1`] = `
     className="output"
     data-testid="calculator-output"
   />
-
   <div
     className="keyboard"
   >
