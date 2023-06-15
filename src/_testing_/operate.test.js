@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import operate from '../logic/operate';
 
 describe('check all Arithmetic operations', () => {

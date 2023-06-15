@@ -1,7 +1,4 @@
-/*eslint-disable*/
-import {render, screen, fireEvent} from '@testing-library/react';
 import calculate from '../logic/calculate';
-import CalculatorUI from '../components/CalculatorUI';
 
 describe('Testing Math Magician', () => {
   describe('Testing events', () => {
@@ -17,8 +14,8 @@ describe('Testing Math Magician', () => {
             next: 1,
             operation: '+',
           },
-          'AC'
-        )
+          'AC',
+        ),
       ).toEqual({
         total: null,
         next: null,
@@ -34,8 +31,8 @@ describe('Testing Math Magician', () => {
             next: '0',
             operation: '+',
           },
-          '0'
-        )
+          '0',
+        ),
       ).toEqual({});
     });
 
@@ -122,7 +119,7 @@ describe('Testing Math Magician', () => {
     });
 
     it('User pressed 20 and ÷ button ( 10 ÷) but then he press x button the result will be x10', () => {
-      const operateTest = {total: '20', next: null, operation: '÷'};
+      const operateTest = { total: '20', next: null, operation: '÷' };
       expect(calculate(operateTest, '+')).toEqual({
         total: '20',
         next: null,
@@ -131,7 +128,7 @@ describe('Testing Math Magician', () => {
     });
 
     it('User pressed 5 and +/- button (5 +/-) result will be -5', () => {
-      const operateTest = {total: null, next: '5', operation: null};
+      const operateTest = { total: null, next: '5', operation: null };
       expect(calculate(operateTest, '+/-')).toEqual({
         total: null,
         next: '-5',
@@ -140,7 +137,7 @@ describe('Testing Math Magician', () => {
     });
 
     it('User pressed 10 and ÷ button ( 10 ÷) but then he press x button the result will be x10', () => {
-      const operationTest = {total: '10', next: null, operation: '÷'};
+      const operationTest = { total: '10', next: null, operation: '÷' };
       expect(calculate(operationTest, 'x')).toEqual({
         total: '10',
         next: null,
